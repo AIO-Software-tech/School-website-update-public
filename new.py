@@ -1,10 +1,14 @@
-print ("hello")
-Username str(insert("what is you user name "))
-Username=username
-if username=ogb:
-  Password int(insert("please enter you password "))
-  Password=password
-  if password=1234:
-    print ("loggin in")
-  else:
-    Print ("please Renter your username and password")
+username = 'OGB'
+
+password = '1234'
+
+userInput = input("What is your username?\n")
+
+if userInput == username:
+    a=input("Password?\n")   
+    if a == password:
+        print("Welcome!")
+    else:
+        print("That is the wrong password.")
+else:
+    print("That is the wrong username.")
