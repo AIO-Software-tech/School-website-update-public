@@ -13,36 +13,14 @@ if userInput == username:
 else:
     print("That is the wrong username.")
     
-userInput = input("What is your username?\n")
-
-if userInput == username:
-    a=input("Password?\n")   
-    if a == password:
-        print("Welcome!")
-    else:
-        print("That is the wrong password.")
-else:
-    print("That is the wrong username.")
-
 no = 'no'
 yes = 'yes'
 
 hint = (input("do you need a hint "))
 if hint == no:
-        userInput = input("What is your username?\n")
-
-    if userInput == username:
-        a=input("Password?\n")   
-        if a == password:
-            print("Welcome!")
-        else:
-            print("That is the wrong password.")
-    else:
-        print("That is the wrong username.")
-        sys.exit()
-
-username = 'username'
-password = 'password'
+    sys.exit
+    
+uorp = 'uorp'
 
 if hint == yes:
     uorp (input("do you need your username hint or password "))
@@ -52,17 +30,7 @@ if hint == yes:
     if uorp == password:
         #replace 'your school name' with you password
         print("your school name")
-
-userInput = input("What is your username?\n")
-
-if userInput == username:
-    a=input("Password?\n")   
-    if a == password:
-        print("Welcome!")
-    else:
-        print("That is the wrong password.")
-else:
-    print("That is the wrong username.")
+        sys.exit
 
 a = 'a'
 b = 'b'
